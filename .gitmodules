@@ -1,0 +1,3 @@
+[submodule "barbican"]
+	path = barbican
+	url = https://github.com/openstack/barbican.git
