@@ -2,8 +2,13 @@
 #
 # VERSION 0.1
 
-FROM centos:centos7
-MAINTAINER CloudKeep Ops
+#zenphu :: Zenaptix-Phusion
+
+# Pull base image.
+FROM phusion/baseimage:latest
+
+MAINTAINER Calvin Maree , cloudcalvin@me.com
+
 
 # Add Repos and Install Packages
 ADD yum.repos.d/ /etc/yum.repos.d
